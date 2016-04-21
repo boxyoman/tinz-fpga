@@ -7,6 +7,7 @@ module top (
 	output LED3,
 	output LED4,
   output J10,
+  output J11,
 	output LED5
 );
 
@@ -15,7 +16,7 @@ module top (
 
   Pulse p(
     .clk(clk), 
-    .count(10_000_000), 
+    .count(750), 
     .q(q)
   );
 
@@ -25,6 +26,7 @@ module top (
   end
 
 	assign J10 = toggle;
+  assign J11 = clk;
 	assign LED4 = toggle;
 	assign LED3 = toggle;
 	assign LED2 = toggle;
