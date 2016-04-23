@@ -1,8 +1,3 @@
-set_io LED4 98
-set_io LED3 97
-set_io LED2 96
-set_io LED1 95
-
 set_io clk 129
 
 set_io J10 112
