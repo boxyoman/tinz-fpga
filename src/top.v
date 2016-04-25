@@ -1,9 +1,9 @@
 `include "pulse.v"
 
 module top (
-	input  clk,
+  input  clk,
   output J10,
-  output J11,
+  output J11
 );
 
   wire q;
@@ -20,6 +20,6 @@ module top (
       toggle <= ~toggle;
   end
 
-	assign J10 = toggle;
+  assign J10 = toggle;
   assign J11 = clk;
 endmodule

@@ -7,7 +7,7 @@ module Counter(
 
   parameter SIZE = 32;
 
-	always@(posedge clk) begin
+  always@(posedge clk) begin
     if(reset == 1) begin
       count <= 0;
     end else begin
