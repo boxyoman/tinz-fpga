@@ -4,7 +4,7 @@ module top (
   input  clk,
   output J10,
   output J11,
-  output J10
+  output J20
 );
 
   wire q1;
