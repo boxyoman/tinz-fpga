@@ -21,7 +21,7 @@ module top (
 
   Pulse p2(
     .clk(clk), 
-    .count(5_999), 
+    .count(11_999_999), 
     .q(q2)
   );
 
